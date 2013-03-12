@@ -1,0 +1,24 @@
+Controlo de versões
+GIT
+
+Para adicionar este ficheiro ao repositório, na bash do GIT:
+
+add -> passa do "working directory" para o index
+
+? git add . (ENTER)
+
+commit -> passa para o repositório
+
+? git commit -m "..."
+
+git config --list -> ver users
+
+config para poder efectuar commit:
+
+? git config --global user.name "i060752" (ENTER)
+? git config --global user.email "1060752@isep.ipp.pt" (ENTER)
+
+? git push -> vai gravar no repositório principal (vai pedir as credenciais do Github)
+
+? git pull -> trazer a última versão e automaticamente faz o merge com o meu
+
